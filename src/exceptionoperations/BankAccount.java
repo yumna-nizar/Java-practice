@@ -27,7 +27,7 @@ public class BankAccount {
      {
          if(Balance-withdrawAmount<MIN_BALANCE)
          {
-             throw new MInBalanceException("cant withdraw money.minimm balance will become lesser than "+MIN_BALANCE);
+             throw new MInBalanceException("cant withdraw money now.minimm balance will become lesser than "+MIN_BALANCE);
          }
          else {
              Balance-=withdrawAmount;
