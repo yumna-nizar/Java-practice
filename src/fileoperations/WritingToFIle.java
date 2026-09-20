@@ -25,13 +25,13 @@ public class WritingToFIle {
             }
 
 
-
-
         }catch (FileNotFoundException fnf)
         {
+            System.out.println(fnf);
 
         }catch (IOException io)
         {
+            System.out.println(io);
 
         }
 
